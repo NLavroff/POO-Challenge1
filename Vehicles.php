@@ -69,7 +69,6 @@ class Bicycle
         private int $currentSpeed;
         private int $nbSeats;
         private int $nbWheels;
-
     
         public function __construct(string $color)
         {
