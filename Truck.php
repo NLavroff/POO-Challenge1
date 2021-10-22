@@ -18,7 +18,6 @@ require_once 'Vehicle.php';
         {
             return $this->energy;
         }
-    
         public function setEnergy(string $energy)
         {
             $this->energy = $energy;
@@ -36,7 +35,6 @@ require_once 'Vehicle.php';
         {
             return $this->loading;
         }
-        
         public function setLoading(int $loading)
         {
             $this->loading = $loading;
