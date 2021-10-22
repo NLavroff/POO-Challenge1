@@ -36,4 +36,4 @@ echo '<br> Vitesse du camion: ' . $truck->getCurrentSpeed() . ' km/h' . '<br>';
 echo $truck->brake();
 echo '<br> Vitesse du camion : ' . $truck->getCurrentSpeed() . ' km/h' . '<br>';
 echo $truck->brake();
-echo '<br> Mon camion est : ' . $truck->getColor() . ', avec ' . $truck->getNbSeats() . ' places' . ' , roule de façon : '. $truck->getEnergy() . ' et le chargement est : ' . $truck->getLoading() . ' Camion : ' . $truck->isFull();
+echo '<br> Mon camion est : ' . $truck->getColor() . ', avec ' . $truck->getNbSeats() . ' places' . ' , roule de façon : '. $truck->getEnergy() . ' et la capacité de stockage est : ' . $truck->getLoading() . ' Camion : ' . $truck->isFull();
