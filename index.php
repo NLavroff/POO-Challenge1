@@ -1,6 +1,7 @@
 <?php
 
-require_once 'Vehicles.php';
+require_once 'Car.php';
+require_once 'Bicycle.php';
 
 $car = new Car('rose', 5, 'lente');
 $bike = new Bicycle('Blue');
